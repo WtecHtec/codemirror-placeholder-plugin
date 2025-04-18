@@ -1,7 +1,7 @@
 # CodeMirror 占位符插件
 
 这是一个用于 CodeMirror 6 的插件，可以创建可编辑的占位符区域。
-
+![项目结构图](./demo.jpg)
 ## 安装
 
 ```bash

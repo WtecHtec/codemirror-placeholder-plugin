@@ -22,7 +22,11 @@
     "editor",
     "plugin"
   ],
-  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtechtec/codemirror-placeholder-plugin.git"
+  },
+  "author": "wtechtec",
   "license": "MIT",
   "peerDependencies": {
     "@codemirror/view": "^6.0.0"
