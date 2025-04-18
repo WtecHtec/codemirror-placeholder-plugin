@@ -1,0 +1,43 @@
+{
+  "name": "codemirror-placeholder-plugin",
+  "version": "0.0.1",
+  "description": "CodeMirror 6 插件，用于创建可编辑的占位符区域",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "codemirror",
+    "codemirror6",
+    "placeholder",
+    "editor",
+    "plugin"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "@codemirror/view": "^6.0.0"
+  },
+  "devDependencies": {
+    "@codemirror/view": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.5.2"
+  }
+}
